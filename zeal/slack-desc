@@ -6,7 +6,7 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
     |-----handy-ruler------------------------------------------------------|
-zeal: Zeal (a simple offline documentation browser inspired by Dash)
+zeal: zeal (offline documentation browser)
 zeal:
 zeal: Zeal is an offline documentation browser inspired by Dash
 zeal: (http://kapeli.com/dash/), available for Linux and Windows.
