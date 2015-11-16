@@ -1,0 +1,14 @@
+You should use protection!
+
+This gem protects against typical web attacks.
+Should work for all Rack apps, including Rails.
+
+Prevented Attacks:
+- Cross Site Request Forgery
+- Cross Site Scripting
+- Clickjacking
+- Directory Traversal
+- Session Hijacking
+- IP Spoofing
+
+Homepage: http://github.com/rkh/rack-protection
