@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+                 |-----handy-ruler------------------------------------------------------|
+rubygem-machinery: rubygem-machinery (systems management toolkit for linux)
+rubygem-machinery:
+rubygem-machinery: Machinery is a systems management toolkit for Linux.
+rubygem-machinery:
+rubygem-machinery: It supports configuration discovery, system validation, and service
+rubygem-machinery: migration. It's based on the idea of a universal system description.
+rubygem-machinery:
+rubygem-machinery: Homepage: http://machinery-project.org/
+rubygem-machinery:
+rubygem-machinery:
+rubygem-machinery:
