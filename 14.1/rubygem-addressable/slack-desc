@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+                   |-----handy-ruler------------------------------------------------------|
+rubygem-addressable: rubygem-addressable (alternative URI implementation for ruby)
+rubygem-addressable:
+rubygem-addressable: Addressable is a replacement for the URI implementation that is part
+rubygem-addressable: of Ruby's standard library. It more closely conforms to the relevant
+rubygem-addressable: RFCs and adds support for IRIs and URI templates.
+rubygem-addressable:
+rubygem-addressable: Homepage: https://github.com/sporkmonger/addressable
+rubygem-addressable:
+rubygem-addressable:
+rubygem-addressable:
+rubygem-addressable:
