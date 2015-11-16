@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+            |-----handy-ruler------------------------------------------------------|
+rubygem-yard: rubygem-yard (documentation generation tool)
+rubygem-yard:
+rubygem-yard: YARD is a documentation generation tool for the Ruby programming
+rubygem-yard: language. It enables the user to generate consistent, usable
+rubygem-yard: documentation that can be exported to a number of formats very
+rubygem-yard: easily, and also supports extending for custom Ruby constructs
+rubygem-yard: such as custom class level definitions.
+rubygem-yard:
+rubygem-yard: Homepage: http://yardoc.org/
+rubygem-yard:
+rubygem-yard:
