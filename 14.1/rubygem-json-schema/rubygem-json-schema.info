@@ -1,0 +1,10 @@
+PRGNAM="rubygem-json-schema"
+VERSION="2.5.1"
+HOMEPAGE="http://github.com/ruby-json-schema/json-schema/tree/master"
+DOWNLOAD="https://rubygems.org/downloads/json-schema-2.5.1.gem"
+MD5SUM=""c2f5db3a59b38c347c77575d0efee25d
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES="rubygem-addressable"
+MAINTAINER="Ricardo J. Barberis"
+EMAIL="ricardo.barberis@gmail.com"

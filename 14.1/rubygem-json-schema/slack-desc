@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+                   |-----handy-ruler------------------------------------------------------|
+rubygem-json-schema: rubygem-json-schema (ruby JSON schema validator)
+rubygem-json-schema:
+rubygem-json-schema: This library is intended to provide Ruby with an interface for
+rubygem-json-schema: validating JSON objects against a JSON schema conforming to JSON
+rubygem-json-schema: Schema Draft 4.
+rubygem-json-schema: Legacy support for JSON Schema Draft 3, JSON Schema Draft 2, and
+rubygem-json-schema: JSON Schema Draft 1 is also included.
+rubygem-json-schema:
+rubygem-json-schema: Homepage: http://github.com/ruby-json-schema/json-schema/tree/master
+rubygem-json-schema:
+rubygem-json-schema:
