@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+             |-----handy-ruler------------------------------------------------------|
+rubygem-rspec: rubygem-rspec (behaviour driven development for ruby)
+rubygem-rspec:
+rubygem-rspec: Behaviour Driven Development for Ruby
+rubygem-rspec:
+rubygem-rspec: RSpec is a Behaviour-Driven Development tool for Ruby programmers.
+rubygem-rspec: BDD is an approach to software development that combines Test-Driven
+rubygem-rspec: Development, Domain Driven Design, and Acceptance Test-Driven Planning.
+rubygem-rspec: RSpec helps you do the TDD part of that equation, focusing on the
+rubygem-rspec: documentation and design aspects of TDD.
+rubygem-rspec:
+rubygem-rspec: Homepage: http://github.com/rspec
