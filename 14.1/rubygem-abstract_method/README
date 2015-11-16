@@ -1,0 +1,4 @@
+Abstract Method is a tiny library enabling you to define abstract
+methods in Ruby classes and modules.
+
+Homepage: https://github.com/openSUSE/abstract_method
