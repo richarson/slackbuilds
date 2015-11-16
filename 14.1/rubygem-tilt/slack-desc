@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+            |-----handy-ruler------------------------------------------------------|
+rubygem-tilt: rubygem-tilt (generic interface to multiple ruby template engines)
+rubygem-tilt:
+rubygem-tilt: Tilt is a thin interface over a bunch of different Ruby template
+rubygem-tilt: engines in an attempt to make their usage as generic as possible.
+rubygem-tilt: This is useful for web frameworks, static site generators, and other
+rubygem-tilt: systems that support multiple template engines but don't want to
+rubygem-tilt: code for each of them individually.
+rubygem-tilt:
+rubygem-tilt: Homepage: http://github.com/rtomayko/tilt/
+rubygem-tilt:
+rubygem-tilt:
