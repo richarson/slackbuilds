@@ -1,0 +1,6 @@
+A fast, safe and extensible Markdown to (X)HTML parser
+
+Redcarpet is a Ruby library for Markdown processing that smells like
+butterflies and popcorn.
+
+Homepage: http://github.com/vmg/redcarpet
