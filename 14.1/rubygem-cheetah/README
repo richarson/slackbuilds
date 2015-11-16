@@ -1,0 +1,6 @@
+Simple library for executing external commands safely and conveniently.
+
+Your swiss army knife for executing external commands in Ruby safely
+and conveniently.
+
+Homepage: https://github.com/openSUSE/cheetah
