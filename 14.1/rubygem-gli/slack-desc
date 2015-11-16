@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+           |-----handy-ruler------------------------------------------------------|
+rubygem-gli: rubygem-gli (git-like interface command line parser)
+rubygem-gli:
+rubygem-gli: Build command-suite CLI apps that are awesome.
+rubygem-gli: Bootstrap your app, add commands, options and documentation while
+rubygem-gli: maintaining a well-tested idiomatic command-line app
+rubygem-gli:
+rubygem-gli: Homepage: http://naildrivin5.com/gli/
+rubygem-gli:
+rubygem-gli:
+rubygem-gli:
+rubygem-gli:
