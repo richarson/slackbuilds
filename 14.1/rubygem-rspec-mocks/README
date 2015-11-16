@@ -1,0 +1,7 @@
+RSpec's 'test double' framework, with support for stubbing and mocking
+
+rspec-mocks is a test-double framework for rspec with support for
+method stubs, fakes, and message expectations on generated
+test-doubles and real objects alike.
+
+Homepage: http://github.com/rspec/rspec-mocks
