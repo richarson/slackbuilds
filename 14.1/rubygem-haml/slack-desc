@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+            |-----handy-ruler------------------------------------------------------|
+rubygem-haml: rubygem-haml (beautiful, DRY, well-indented, clear markup)
+rubygem-haml:
+rubygem-haml: Haml (HTML Abstraction Markup Language) is a layer on top of HTML or
+rubygem-haml: XML that's designed to express the structure of documents in a
+rubygem-haml: non-repetitive, elegant, and easy way by using indentation rather
+rubygem-haml: than closing tags and allowing Ruby to be embedded with ease.
+rubygem-haml:
+rubygem-haml: It was originally envisioned as a plugin for Ruby on Rails, but it
+rubygem-haml: can function as a stand-alone templating engine.
+rubygem-haml:
+rubygem-haml: Homepage: http://haml.info/
