@@ -84,7 +84,7 @@ cd ..
 
 # This program doesn't have an install target, so we install files by hand
 mkdir -p $PKG/usr/{bin,share}
-install -D -m 0755 QOwnNotes $PKG/usr/bin/QOwnNotes
+install -D -m 0755 build/QOwnNotes $PKG/usr/bin/QOwnNotes
 install -D -m 0644 QOwnNotes.desktop $PKG/usr/share/applications/QOwnNotes.desktop
 install -D -m 0644 images/icons/128x128/QOwnNotes.png $PKG/usr/share/pixmaps/QOwnNotes.png
 install -D -m 0644 images/icons/16x16/QOwnNotes.png   $PKG/usr/share/icons/hicolor/16x16/apps/QOwnNotes.png
