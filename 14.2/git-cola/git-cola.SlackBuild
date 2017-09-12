@@ -5,8 +5,8 @@
 # Written by Andrew Rowland <darowland@ieee.org>
 
 PRGNAM=git-cola
-VERSION=${VERSION:-2.10}
-BUILD=${BUILD:-1}
+VERSION=${VERSION:-2.11}
+BUILD=${BUILD:-2}
 TAG=${TAG:-_RJB}
 
 if [ -z "$ARCH" ]; then
@@ -53,12 +53,20 @@ find -L . \
 
 python setup.py install --root=$PKG
 
+make DESTDIR=$PKG prefix=/usr install
+make DESTDIR=$PKG prefix=/usr install-doc
+make DESTDIR=$PKG prefix=/usr install-html
+
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a COPYING COPYRIGHT README.md $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
+mv $PKG/usr/share/doc/$PRGNAM/* $PKG/usr/doc/$PRGNAM-$VERSION
+mv $PKG/usr/share/man $PKG/usr/
+rmdir $PKG/usr/share/doc/$PRGNAM
+rmdir $PKG/usr/share/doc
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
