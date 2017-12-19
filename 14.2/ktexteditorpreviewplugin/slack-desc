@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+                        |-----handy-ruler------------------------------------------------------|
+ktexteditorpreviewplugin: KTextEditor Document Preview Plugin
+ktexteditorpreviewplugin:
+ktexteditorpreviewplugin: A plugin for the editor Kate, the IDE KDevelop, or other software
+ktexteditorpreviewplugin: using the KTextEditor framework.
+ktexteditorpreviewplugin:
+ktexteditorpreviewplugin: This plugin enables a live preview of the currently edited text
+ktexteditorpreviewplugin: document in the final format.
+ktexteditorpreviewplugin:
+ktexteditorpreviewplugin: For the display it uses the KParts plugin which is currently
+ktexteditorpreviewplugin: selected as the preferred one for the MIME type of the document.
+ktexteditorpreviewplugin: If there is no matching KParts plugin, no preview is possible.

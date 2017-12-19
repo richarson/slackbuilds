@@ -1,0 +1,11 @@
+KTextEditor Document Preview Plugin
+
+A plugin for the editor Kate, the IDE KDevelop, or other software
+using the KTextEditor framework.
+
+This plugin enables a live preview of the currently edited text
+document in the final format.
+
+For the display it uses the KParts plugin which is currently
+selected as the preferred one for the MIME type of the document.
+If there is no matching KParts plugin, no preview is possible.
