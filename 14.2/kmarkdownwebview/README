@@ -1,0 +1,11 @@
+Markdown Viewer KPart & Thumbnailer (webtech-based)
+
+This package contains software for the rendered display of
+Markdown documents:
+
+* a Markdown viewer KPart plugin which allows KParts-using
+  applications to display files in Markdown format in the
+  target format
+* a Markdown file KIO thumbnail generator plugin which allows
+  KIO-powered file managers & dialogs to show thumbnails and
+  previews of files in Markdown format in the target format

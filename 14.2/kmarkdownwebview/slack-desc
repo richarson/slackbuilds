@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+       |-----handy-ruler------------------------------------------------------|
+kmarkdownwebview: Markdown Viewer KPart & Thumbnailer (webtech-based)
+kmarkdownwebview:
+kmarkdownwebview: This package contains software for the rendered display of
+kmarkdownwebview: Markdown documents:
+kmarkdownwebview:
+kmarkdownwebview: * a Markdown viewer KPart plugin which allows KParts-using
+kmarkdownwebview:   applications to display files in Markdown format in the
+kmarkdownwebview:   target format
+kmarkdownwebview: * a Markdown file KIO thumbnail generator plugin which allows
+kmarkdownwebview:   KIO-powered file managers & dialogs to show thumbnails and
+kmarkdownwebview:   previews of files in Markdown format in the target format
