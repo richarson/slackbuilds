@@ -53,6 +53,29 @@ find -L . \
 
 python setup.py install --root=$PKG
 
+# AUR:
+#make all doc html
+#make prefix=/usr DESTDIR="$pkgdir" install{,-doc,-html}
+
+# RPM:
+#%prep
+#%setup -q
+#%if 0%{?python3}
+## fix #!/usr/bin/env/python to #!/usr/bin/env/python3 everywhere
+#find . -type f -exec sh -c "head {} -n 1 | grep ^#\!\ \*/usr/bin/env\ python >/dev/null && sed -i -e sX^#\!\ \*/usr/bin/env\ python\ \*"\\\$"X#\!/usr/bin/env\ python3Xg {}" \;
+#%endif
+#
+#%build
+#%global makeopts PYTHON="%{__python}" %{?sphinxbuild:SPHINXBUILD="%{sphinxbuild}"}
+#make %{?_smp_mflags} %{makeopts}
+#make %{makeopts} doc
+#
+#%install
+#make DESTDIR=%{buildroot} prefix=%{_prefix} %{makeopts} install
+#make DESTDIR=%{buildroot} prefix=%{_prefix} %{makeopts} install-doc
+#make DESTDIR=%{buildroot} prefix=%{_prefix} %{makeopts} install-html
+#%find_lang %{name}
+
 make DESTDIR=$PKG prefix=/usr install
 make DESTDIR=$PKG prefix=/usr install-doc
 make DESTDIR=$PKG prefix=/usr install-html
@@ -60,11 +83,14 @@ make DESTDIR=$PKG prefix=/usr install-html
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
+mv $PKG/usr/share/man $PKG/usr/
+find $PKG/usr/man -type f -exec gzip -9 {} \;
+for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
+
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a COPYING COPYRIGHT README.md $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 mv $PKG/usr/share/doc/$PRGNAM/* $PKG/usr/doc/$PRGNAM-$VERSION
-mv $PKG/usr/share/man $PKG/usr/
 rmdir $PKG/usr/share/doc/$PRGNAM
 rmdir $PKG/usr/share/doc
 
