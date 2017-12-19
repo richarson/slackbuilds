@@ -1,6 +1,8 @@
 git-cola is a Python-powered GPL licensed GUI for git.
 
-The website says:
+Sphinx is an optional(?) dependency to build the docs.
+
+Qt4 warning, the website says:
 
 "NOTE: We do not yet recommend using PyQt5 because there are known
 exit-on-segfault bugs in Qt5 that have not yet been addressed. git-cola
