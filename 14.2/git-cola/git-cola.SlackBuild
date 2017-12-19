@@ -5,8 +5,8 @@
 # Written by Andrew Rowland <darowland@ieee.org>
 
 PRGNAM=git-cola
-VERSION=${VERSION:-2.11}
-BUILD=${BUILD:-2}
+VERSION=${VERSION:-3.0}
+BUILD=${BUILD:-1}
 TAG=${TAG:-_RJB}
 
 if [ -z "$ARCH" ]; then
