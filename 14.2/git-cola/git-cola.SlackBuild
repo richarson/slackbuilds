@@ -9,7 +9,7 @@
 PRGNAM=git-cola
 VERSION=${VERSION:-3.0}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_RJB}
+TAG=${TAG:-_SBo}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
