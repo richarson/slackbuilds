@@ -2,9 +2,8 @@
 
 # Slackware build script for: kdiff3
 # Copyright 2007-2011  Michiel van Wessem, Manchester, United Kingdom
+# Copyright (c) 2017 Ricardo J. Barberis <ricardo.barberis@gmail.com>
 # All rights reserved.
-#
-# Copyright (c) 2017-2018, Modified by: Ricardo J. Barberis <ricardo.barberis@gmail.com>
 #
 # QT4ONLY option courtesy of Ekin Akoglu, adapted by Ricardo J. Barberis
 #
