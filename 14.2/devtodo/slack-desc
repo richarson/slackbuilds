@@ -9,7 +9,7 @@
 devtodo: devtodo (console based todo list)
 devtodo:
 devtodo: Developer Todo is a program to assist developers in maintaining a
-devtodo: list of outstanding tasks in a heirarchical, colourised, and
+devtodo: list of outstanding tasks in a hierarchical, colourised, and
 devtodo: prioritised list. Additionally, it can automatically list
 devtodo: outstanding items when you change into a directory.
 devtodo:
