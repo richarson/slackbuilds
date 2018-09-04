@@ -6,12 +6,12 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
                         |-----handy-ruler------------------------------------------------------|
-opera-beta-ffmpeg-codecs: opera-beta-ffmpeg-codecs (Extra ffmpeg codec for Opera browser)
+opera-beta-ffmpeg-codecs: opera-beta-ffmpeg-codecs (Extra ffmpeg codec for Opera Beta browser)
 opera-beta-ffmpeg-codecs:
-opera-beta-ffmpeg-codecs: Additional support for proprietary codecs for opera-beta.
+opera-beta-ffmpeg-codecs: FFMpeg prebuilt binaries with proprietary codecs and build
+opera-beta-ffmpeg-codecs: instructions for window, linux and osx.
 opera-beta-ffmpeg-codecs:
-opera-beta-ffmpeg-codecs: Home Page: https://repo.herecura.eu/
-opera-beta-ffmpeg-codecs:
+opera-beta-ffmpeg-codecs: Home Page: https://github.com/iteufel/nwjs-ffmpeg-prebuilt
 opera-beta-ffmpeg-codecs:
 opera-beta-ffmpeg-codecs:
 opera-beta-ffmpeg-codecs:

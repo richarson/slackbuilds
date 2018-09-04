@@ -1,9 +1,7 @@
-opera-beta-ffmpeg-codecs (Extra ffmpeg codec for Opera browser)
+opera-beta-ffmpeg-codecs (Extra ffmpeg codec for Opera Beta browser)
 
-Additional support for proprietary codecs for opera-beta.
-
-This will add H.264 support to Opera Beta and not replacing the
-default /usr/lib/opera-developer/libffmpeg.so.
+FFMpeg prebuilt binaries with proprietary codecs and build
+instructions for window, linux and osx.
 
 For tests, go to:
 
