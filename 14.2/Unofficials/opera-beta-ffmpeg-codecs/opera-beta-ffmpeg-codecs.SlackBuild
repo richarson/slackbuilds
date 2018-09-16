@@ -25,7 +25,7 @@
 PRGNAM="opera-beta-ffmpeg-codecs"
 VERSION=${VERSION:-0.32.4}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_SBo}
+TAG=${TAG:-_RJB}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -80,8 +80,8 @@ find -L . \
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
-mkdir -p $PKG/usr/lib${LIBDIRSUFFIX}/opera/lib_extra
-mv libffmpeg.so $PKG/usr/lib${LIBDIRSUFFIX}/opera/lib_extra/
+mkdir -p $PKG/usr/lib${LIBDIRSUFFIX}/opera-beta/lib_extra
+mv libffmpeg.so $PKG/usr/lib${LIBDIRSUFFIX}/opera-beta/lib_extra/
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
