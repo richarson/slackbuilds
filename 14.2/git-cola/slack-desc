@@ -6,7 +6,7 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
         |-----handy-ruler------------------------------------------------------|
-git-cola: git-cola: The highly caffeinated Git GUI
+git-cola: git-cola (The highly caffeinated Git GUI)
 git-cola:
 git-cola: git-cola is a sleek and powerful graphical user interface for Git.
 git-cola: git-cola is free software and written in Python (v2 + v3).
