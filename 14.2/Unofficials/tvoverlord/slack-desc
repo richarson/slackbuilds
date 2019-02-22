@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+          |-----handy-ruler------------------------------------------------------|
+tvoverlord: tvoverlord ()
+tvoverlord:
+tvoverlord: TV Overlord is a semi automatic command line tool to download and
+tvoverlord: manage TV shows from newsgroups or bittorent. It will download nzb
+tvoverlord: files or magnet links.
+tvoverlord:
+tvoverlord: It searches multiple sites simultaneously and combines the results
+tvoverlord: into one list to select from.
+tvoverlord: TV Overlord keeps track of which shows have been downloaded and what
+tvoverlord: shows are available to download.
+tvoverlord:
