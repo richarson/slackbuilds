@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+       |-----handy-ruler------------------------------------------------------|
+pyside2: Qt for Python a.k.a. PySide2
+pyside2:
+pyside2: The Qt for Python project aims to provide a complete port of the
+pyside2: PySide module to Qt 5.
+pyside2:
+pyside2: Qt for Python is available under LGPLv3/GPLv2 and commercial license.
+pyside2: It's an alternative to PyQt5 (GPLv3 and commercial license).
+pyside2:
+pyside2: Homepage: https://www.qt.io/qt-for-python
+pyside2:
+pyside2:

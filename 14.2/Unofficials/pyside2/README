@@ -1,0 +1,7 @@
+Qt for Python a.k.a. PySide2
+
+The Qt for Python project aims to provide a complete port of the PySide
+module to Qt 5.
+
+Qt for Python is available under LGPLv3/GPLv2 and commercial license.
+It's an alternative to PyQt5 (GPLv3 and commercial license).
