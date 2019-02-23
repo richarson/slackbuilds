@@ -6,14 +6,12 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
           |-----handy-ruler------------------------------------------------------|
-tvoverlord: tvoverlord ()
+tvoverlord: tvoverlord (download and manage TV shows)
 tvoverlord:
 tvoverlord: TV Overlord is a semi automatic command line tool to download and
 tvoverlord: manage TV shows from newsgroups or bittorent. It will download nzb
 tvoverlord: files or magnet links.
 tvoverlord:
-tvoverlord: It searches multiple sites simultaneously and combines the results
-tvoverlord: into one list to select from.
 tvoverlord: TV Overlord keeps track of which shows have been downloaded and what
 tvoverlord: shows are available to download.
 tvoverlord:
