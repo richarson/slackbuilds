@@ -11,7 +11,7 @@ python-requests-cache:
 python-requests-cache: Requests-cache is a transparent persistent cache for requests
 python-requests-cache: (version >= 1.1.0) library
 python-requests-cache:
-python-requests-cache:
+python-requests-cache: Homepage: https://github.com/reclosedev/requests-cache
 python-requests-cache:
 python-requests-cache:
 python-requests-cache:
