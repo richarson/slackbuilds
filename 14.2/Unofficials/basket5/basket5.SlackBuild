@@ -26,6 +26,7 @@ PRGNAM=basket5
 TGZNAM=basket
 VERSION=${VERSION:-2.49-alpha}
 BUILD=${BUILD:-1}
+#TAG=${TAG:-_SBo}
 TAG=${TAG:-_RJB}
 
 if [ -z "$ARCH" ]; then

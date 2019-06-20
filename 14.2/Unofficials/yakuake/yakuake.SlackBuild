@@ -32,7 +32,8 @@
 PRGNAM=yakuake
 VERSION=${VERSION:-3.0.4}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_SBo}
+#TAG=${TAG:-_SBo}
+TAG=${TAG:-_RJB}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
