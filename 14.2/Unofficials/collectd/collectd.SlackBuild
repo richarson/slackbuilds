@@ -10,7 +10,7 @@
 
 # Modified by the SlackBuilds.org project
 
-# Copyright (c) 2017-2018, Modified by: Ricardo J. Barberis <ricardo.barberis@gmail.com>
+# Copyright (c) 2017-2019, Modified by: Ricardo J. Barberis <ricardo.barberis@gmail.com>
 
 PRGNAM=collectd
 VERSION=${VERSION:-5.9.0}

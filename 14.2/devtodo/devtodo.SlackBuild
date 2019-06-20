@@ -1,10 +1,11 @@
 #!/bin/sh
 
 # Slackware build script for: devtodo
+
 # Copyright (c) 2007, Written by: Michiel van Wessem <michiel@slackbuilds.org>
 # All rights reserved.
 #
-# Copyright (c) 2017-2018, Modified by: Ricardo J. Barberis <ricardo.barberis@gmail.com>
+# Copyright (c) 2017-2019, Modified by: Ricardo J. Barberis <ricardo.barberis@gmail.com>
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are
