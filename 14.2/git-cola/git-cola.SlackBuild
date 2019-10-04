@@ -53,11 +53,15 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-python setup.py install --root=$PKG
+python3 setup.py install --root=$PKG
 
 make DESTDIR=$PKG prefix=/usr install
 make DESTDIR=$PKG prefix=/usr install-doc
 make DESTDIR=$PKG prefix=/usr install-html
+
+sed -i -e 's,/usr/bin/python.*,/usr/bin/python3,' $PKG/usr/bin/git-cola $PKG/usr/bin/git-dag
+sed -i -e 's,/usr/bin/env python.*,/usr/bin/env python3,' $PKG/usr/share/git-cola/bin/git-xbase \
+    $PKG/usr/share/git-cola/lib/cola/widgets/spellcheck.py
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
