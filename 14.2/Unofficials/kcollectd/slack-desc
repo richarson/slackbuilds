@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
          |-----handy-ruler------------------------------------------------------|
-kcollectd: kcollectd (Qt4-based frontend for collectd)
+kcollectd: kcollectd (simple collectd graphing front-end for KDE)
 kcollectd:
-kcollectd: Kcollectd is a small application that allows to view rrd
-kcollectd: data collections that have been created by collectd.
+kcollectd: kcollectd is a graphical front-end to collectd, a data collection
+kcollectd: service that monitors, by polling or pushed updates, system
+kcollectd: information, such as temperature or free RAM.
 kcollectd:
 kcollectd: It is quite limited as it only displays one datasource at a time, but
 kcollectd: allows to zoom and scroll around. It also has a status-monitor mode,
 kcollectd: where it automatic updates every 10 seconds.
 kcollectd:
-kcollectd: Homepage:
-kcollectd:   https://www.forwiss.uni-passau.de/~berberic/Linux/kcollectd.html
+kcollectd: Homepage: https://gitlab.com/aerusso/kcollectd

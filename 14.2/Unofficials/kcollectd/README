@@ -1,10 +1,12 @@
-Kcollectd (Qt4-based frontend for collectd)
+Kcollectd (simple collectd graphing front-end for KDE)
 
-Kcollectd is a small applications that allows to view rrd datacollections
-that have been created by collectd.
+kcollectd is a graphical front-end to collectd, a data collection service
+that monitors, by polling or pushed updates, system information, such as
+temperature or free RAM.
 
-It is quite limited as it only displays one datasource at a time, but
-allows to zoom and scroll around. It also has a status-monitor mode,
-where it automatic updates every 10 seconds.
+kcollectd directly displays the data, which is stored in an round-robin
+database. It is quite limited as it only displays one datasource at a
+time, but allows to zoom and scroll around. It also has a status-monitor
+mode, where it automatic updates every 10 seconds.
 
-https://www.forwiss.uni-passau.de/~berberic/Linux/kcollectd.html
+https://gitlab.com/aerusso/kcollectd
