@@ -1,3 +1,3 @@
 ## experiments
 
-Slackbuild scripts not yet submitted to SBo.
+Slackbuild scripts not yet submitted to SBo, plus experimental stuff.
