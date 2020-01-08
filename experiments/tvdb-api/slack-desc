@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
         |-----handy-ruler------------------------------------------------------|
-tvdb_api: tvdb_api (easy to use interface to thetvdb.com)
-tvdb_api:
-tvdb_api: tvdb_api is a simple to use TVDB (thetvdb.com) API in Python.
-tvdb_api:
-tvdb_api:
-tvdb_api: Homepage: https://github.com/dbr/tvdb_api
-tvdb_api:
-tvdb_api:
-tvdb_api:
-tvdb_api:
-tvdb_api:
+tvdb-api: tvdb-api (easy to use interface to thetvdb.com)
+tvdb-api:
+tvdb-api: tvdb-api is a simple to use TVDB (thetvdb.com) API in Python.
+tvdb-api:
+tvdb-api:
+tvdb-api: Homepage: https://github.com/dbr/tvdb_api
+tvdb-api:
+tvdb-api:
+tvdb-api:
+tvdb-api:
+tvdb-api:

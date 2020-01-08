@@ -1,4 +1,4 @@
-PRGNAM="tvdb_api"
+PRGNAM="tvdb-api"
 VERSION=""
 HOMEPAGE="https://github.com/dbr/tvdb_api"
 DOWNLOAD="https://github.com/dbr/tvdb_api/archive/2.0/tvdb_api-2.0.tar.gz"
