@@ -5,6 +5,6 @@ DOWNLOAD="https://files.pythonhosted.org/packages/bb/3d/a924cc62a4381ba0693925cd
 MD5SUM="eab518fb9bce1f94aa64708e3c53ba77"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
-REQUIRES="tvdb_api"
+REQUIRES="tvdb-api"
 MAINTAINER="Ricardo J. Barberis"
 EMAIL="ricardo.barberis@gmail.com"
