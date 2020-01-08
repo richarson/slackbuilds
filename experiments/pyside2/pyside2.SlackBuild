@@ -23,12 +23,12 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=pyside2
-VERSION=${VERSION:-5.12.1}
+VERSION=${VERSION:-5.13.2}
 BUILD=${BUILD:-1}
 #TAG=${TAG:-_SBo}
 TAG=${TAG:-_RJB}
 
-SRCNAM=pyside-setup-everywhere-src
+SRCNAM=pyside-setup-opensource-src
 PARALLEL=${PARALLEL:-1}
 
 if [ -z "$ARCH" ]; then
