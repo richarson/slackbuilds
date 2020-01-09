@@ -76,6 +76,7 @@ find -L . \
 ## Build fails under non-ascii locales
 LANG=C
 
+patch -p1 < $CWD/python-3.8-support.patch
 python setup.py build --qmake=/usr/bin/qmake-qt5 --build-tests --ignore-git --parallel=$PARALLEL || exit 1
 python setup.py install --root=$PKG --qmake=/usr/bin/qmake-qt5 --build-tests --ignore-git --parallel=$PARALLEL || exit 1
 

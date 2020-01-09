@@ -1,0 +1,10 @@
+--- a/build_scripts/config.py	2020-01-09 11:36:22.851746147 -0300
++++ b/build_scripts/config.py	2020-01-09 11:38:01.420484978 -0300
+@@ -93,6 +93,7 @@
+             'Programming Language :: Python :: 3.5',
+             'Programming Language :: Python :: 3.6',
+             'Programming Language :: Python :: 3.7',
++            'Programming Language :: Python :: 3.8',
+         ]
+ 
+         self.setup_script_dir = None
