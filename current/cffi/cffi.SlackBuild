@@ -23,9 +23,10 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=cffi
-VERSION=${VERSION:-1.11.5}
+VERSION=${VERSION:-1.13.2}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_SBo}
+#TAG=${TAG:-_SBo}
+TAG=${TAG:-_RJB}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
