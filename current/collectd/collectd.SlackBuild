@@ -15,6 +15,7 @@
 PRGNAM=collectd
 VERSION=${VERSION:-5.10.0}
 BUILD=${BUILD:-1}
+#TAG=${TAG:-_SBo}
 TAG=${TAG:-_RJB}
 
 if [ -z "$ARCH" ]; then

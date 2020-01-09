@@ -26,6 +26,7 @@
 PRGNAM=rsibreak
 VERSION=${VERSION:-0.12.11}
 BUILD=${BUILD:-1}
+#TAG=${TAG:-_SBo}
 TAG=${TAG:-_RJB}
 
 if [ -z "$ARCH" ]; then

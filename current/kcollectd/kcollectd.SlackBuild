@@ -25,6 +25,7 @@
 PRGNAM=kcollectd
 VERSION=${VERSION:-0.10.2}
 BUILD=${BUILD:-1}
+#TAG=${TAG:-_SBo}
 TAG=${TAG:-_RJB}
 PKGNAM=${PRGNAM}_${VERSION}.orig.tar.xz
 
