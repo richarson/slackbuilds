@@ -1,6 +1,6 @@
 PRGNAM="kcollectd"
 VERSION="0.10.2"
-HOMEPAGE="https://gitlab.com/aerusso/kcollectd"
+HOMEPAGE="https://www.antonioerusso.com/projects/kcollectd/"
 DOWNLOAD="http://deb.debian.org/debian/pool/main/k/kcollectd/kcollectd_0.10.2.orig.tar.xz"
 MD5SUM="6a31542a89094aecf13778f532244efe"
 DOWNLOAD_x86_64=""
