@@ -24,7 +24,7 @@
 
 PRGNAM=basket5
 TGZNAM=basket
-VERSION=${VERSION:-2.49-alpha}
+VERSION=${VERSION:-2.49-beta}
 BUILD=${BUILD:-1}
 #TAG=${TAG:-_SBo}
 TAG=${TAG:-_RJB}
@@ -64,6 +64,7 @@ cd $TMP
 rm -rf $TGZNAM-$VERSION
 tar xvf $CWD/$TGZNAM-$VERSION.tar.bz2
 cd $TGZNAM-$VERSION
+patch -p0 < $CWD/$TGZNAM-$VERSION-libgit2.patch
 chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
