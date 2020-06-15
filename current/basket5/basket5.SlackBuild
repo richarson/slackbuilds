@@ -25,7 +25,7 @@
 PRGNAM=basket5
 TGZNAM=basket
 VERSION=${VERSION:-2.49-beta}
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-2}
 #TAG=${TAG:-_SBo}
 TAG=${TAG:-_RJB}
 
