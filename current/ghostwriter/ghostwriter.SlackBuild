@@ -25,7 +25,7 @@
 PRGNAM=ghostwriter
 VERSION=${VERSION:-1.8.1}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_SBo}
+TAG=${TAG:-_RJB}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -68,8 +68,10 @@ chown -R root:root .
 chmod -R a-st,u+rwX,go-w+rX .
 
 # Adjust docs location.
-
 sed -i $PRGNAM.pro -e "s|man\.path.*$|man.path = /usr/man/man1|"
+
+# Patch for Qt 5.15 compatibility
+patch -Np1 -i $CWD/qt-5.15.patch
 
 qmake-qt5 -r $PRGNAM.pro      \
   QMAKE_CFLAGS="$SLKCFLAGS"   \
