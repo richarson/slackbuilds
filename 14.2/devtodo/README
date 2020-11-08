@@ -1,4 +1,3 @@
-
 Dev Todo is a small command line application for maintaining lists of
 outstanding tasks. It stores tasks hierarchically, with each task
 given one of five priority levels and a matching colour level.
