@@ -1,0 +1,9 @@
+amarok-kf5 (music player)
+
+Amarok is a music player for Linux and Unix with an intuitive
+interface. Amarok makes playing the music you love easier than ever
+before - and looks good doing it.
+
+Amarok's home page is: https://amarok.kde.org
+
+This version is taken from git and compiles against KF5
