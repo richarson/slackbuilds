@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+        |-----handy-ruler------------------------------------------------------|
+discount: discount (a Markdown implementation written in C)
+discount:
+discount: Discount is an implementation of John Gruber’s Markdown text to html
+discount: language.
+discount:
+discount: There’s not much here that differentiates it from any of the existing
+discount: Markdown implementations except that it’s written in C instead of one
+discount: of the vast flock of scripting languages that are fighting it out for
+discount: the Perl crown.
+discount:
+discount: Homepage: https://www.pell.portland.or.us/~orc/Code/discount/
