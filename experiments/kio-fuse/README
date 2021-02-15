@@ -1,0 +1,4 @@
+kio-fuse (FUSE interface for KIO)
+
+kio-fuse is a daemon that allows to mount KIO filesystems in the
+local system, exposing them to every application.
