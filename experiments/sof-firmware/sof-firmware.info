@@ -1,7 +1,7 @@
 PRGNAM="sof-firmware"
 VERSION="1.6.1"
 HOMEPAGE="https://www.sofproject.org/"
-DOWNLOAD="https://github.com/thesofproject/sof-bin/archive/v1.6.1.tar.gz"
+DOWNLOAD="https://github.com/thesofproject/sof-bin/archive/v1.6.1/sof-firmware-1.6.1.tar.gz"
 MD5SUM="fd4f660b3385dc59347e4613ce63c089"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""

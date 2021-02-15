@@ -27,9 +27,8 @@
 # https://www.linuxquestions.org/questions/slackware-14/audio-on-thinkpad-x1c8-4175682075/#post6206217
 
 PRGNAM="sof-firmware"
-VERSION=${VERSION:-v1.6.1}
+VERSION=${VERSION:-1.6.1}
 BUILD=${BUILD:-1}
-#TAG=${TAG:-_SBo}
 TAG=${TAG:-_RJB}
 
 if [ -z "$ARCH" ]; then
@@ -66,7 +65,7 @@ mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PRGNAM-$VERSION
 mkdir -p $PRGNAM-${VERSION}
-tar xf $CWD/${VERSION}.tar.gz -C $PRGNAM-${VERSION} --strip-components=1
+tar xf $CWD/$PRGNAM-${VERSION}.tar.gz -C $PRGNAM-${VERSION} --strip-components=1
 cd $PRGNAM-${VERSION}
 chown -R root:root .
 find -L . \
@@ -76,12 +75,12 @@ find -L . \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 mkdir -p $PKG/lib/firmware/
-mv lib/firmware/intel/sof-tplg-${VERSION} lib/firmware/intel/sof-tplg
+mv lib/firmware/intel/sof-tplg-v${VERSION} lib/firmware/intel/sof-tplg
 cp -a lib/firmware/intel/ $PKG/lib/firmware/
 
 (cd $PKG/lib/firmware/intel/sof
-for i in ${VERSION}/intel-signed/*.ri ${VERSION}/*.ri; do
-    f=${i%%-$VERSION.ri}
+for i in v${VERSION}/intel-signed/*.ri v${VERSION}/*.ri; do
+    f=${i%%-v$VERSION.ri}
     f=${f##*/}
     ln -s $i $f.ri
 done
@@ -92,8 +91,8 @@ test -f sof-cfl.ri || ln -s sof-cnl.ri sof-cfl.ri
 
 mkdir -p debug
 cd debug
-for i in ../${VERSION}/*.ldc; do
-    f=${i%%-$VERSION.ldc}
+for i in ../v${VERSION}/*.ldc; do
+    f=${i%%-v$VERSION.ldc}
     f=${f##*/}
     ln -s $i $f.ldc
 done
