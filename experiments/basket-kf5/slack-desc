@@ -5,15 +5,15 @@
 # You must make exactly 11 lines for the formatting to be correct.  It's also
 # customary to leave one space after the ':' except on otherwise blank lines.
 
-       |-----handy-ruler------------------------------------------------------|
-basket5: basket5 (KDE note-taking application)
-basket5:
-basket5: BasKet Note Pads is a note-taking application for KDE that makes it
-basket5: easy to write down ideas as you think, and quickly find them back
-basket5: later.
-basket5:
-basket5: Basket 2.49a for KF5 (alpha)
-basket5:
-basket5:
-basket5:
-basket5:
+          |-----handy-ruler------------------------------------------------------|
+basket-kf5: basket-kf5 (KDE note-taking application)
+basket-kf5:
+basket-kf5: BasKet Note Pads is a note-taking application for KDE that makes it
+basket-kf5: easy to write down ideas as you think, and quickly find them back
+basket-kf5: later.
+basket-kf5:
+basket-kf5: It allows to arrange notes, track to-dos and much more.
+basket-kf5:
+basket-kf5:
+basket-kf5: This is an in-development version of BasKet for KF5
+basket-kf5:
