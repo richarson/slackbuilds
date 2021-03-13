@@ -4,10 +4,10 @@
 
 # Written by Andrew Rowland <darowland@ieee.org>
 
-# Copyright (c) 2017-2019, Modified by: Ricardo J. Barberis <ricardo.barberis@gmail.com>
+# Copyright (c) 2017-2021, Modified by: Ricardo J. Barberis <ricardo.barberis@gmail.com>
 
 PRGNAM=git-cola
-VERSION=${VERSION:-3.8}
+VERSION=${VERSION:-3.9}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
