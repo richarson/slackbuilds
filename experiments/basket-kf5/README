@@ -1,6 +1,12 @@
-BasKet Note Pads is a note-taking application for KDE that makes it easy to
-write down ideas as you think, and quickly find them back later.
+basket-kf5 (KDE note-taking application)
 
-Basket 2.49a for KF5 (alpha)
+BasKet Note Pads is a note-taking application for KDE that makes it
+easy to write down ideas as you think, and quickly find them back
+later.
 
-Optional dependency: libgit2
+It allows to arrange notes, track to-dos and much more.
+
+
+This is an in-development version of BasKet for KF5
+
+Optional dependencies: libgit2, appstreamcli
