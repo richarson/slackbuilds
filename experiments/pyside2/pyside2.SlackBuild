@@ -80,11 +80,9 @@ python setup.py build --qmake=/usr/bin/qmake-qt5 --build-tests --ignore-git --pa
 python setup.py install --root=$PKG --qmake=/usr/bin/qmake-qt5 --build-tests --ignore-git --parallel=$PARALLEL || exit 1
 
 # Python 3 support.
-if $(python3 -c 'import sys' 2>/dev/null); then
-    python3 setup.py clean
-    python3 setup.py build --qmake=/usr/bin/qmake-qt5 --build-tests --ignore-git --parallel=$PARALLEL || exit 1
-    python3 setup.py install --root=$PKG --qmake=/usr/bin/qmake-qt5 --build-tests --ignore-git --parallel=$PARALLEL || exit 1
-fi
+python3 setup.py clean
+python3 setup.py build --qmake=/usr/bin/qmake-qt5 --build-tests --ignore-git --parallel=$PARALLEL || exit 1
+python3 setup.py install --root=$PKG --qmake=/usr/bin/qmake-qt5 --build-tests --ignore-git --parallel=$PARALLEL || exit 1
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
