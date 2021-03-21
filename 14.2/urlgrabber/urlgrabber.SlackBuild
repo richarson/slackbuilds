@@ -3,7 +3,7 @@
 # Slackware build script for urlgrabber
 
 # Copyright (c) 2007 Daniel de Kok <moc.mikciat@leinad>
-# Copyright 2020 Ricardo J. Barberis <ricardo.barberis@gmail.com>
+# Copyright 2020-2021 Ricardo J. Barberis <ricardo.barberis@gmail.com>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -26,7 +26,7 @@
 # modified by Javier Rojas to fit urlgrabber
 
 PRGNAM=urlgrabber
-VERSION=${VERSION:-3.10}
+VERSION=${VERSION:-4.1.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
@@ -72,8 +72,12 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-CFLAGS="$SLKCFLAGS" \
-python setup.py install --root=$PKG
+CFLAGS="$SLKCFLAGS" python setup.py install --root=$PKG
+
+# Python 3 support.
+if $(python3 -c 'import sys' 2>/dev/null); then
+    CFLAGS="$SLKCFLAGS" python3 setup.py install --root=$PKG
+fi
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a ChangeLog LICENSE README TODO \
