@@ -12,6 +12,6 @@ config() {
 }
 
 config etc/grc.conf.new
-config etc/profile.d/grc.bashrc.new
+config etc/profile.d/grc.sh.new
 config etc/profile.d/grc.zsh.new
 config etc/profile.d/grc.fish.new
