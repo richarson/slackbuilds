@@ -14,3 +14,10 @@ incremental backups while keeping the speed advantages of full backups
 If the optional (runtime) dependencies pylibacl and pyxattr are
 installed, rdiff-backup will support Access Control Lists and Extended
 Attributes provided the file system(s) also support these features.
+
+IMPORTANT: rdiff-backup 2.x is wire-incompatible with versions 1.x, for
+local backups there's no problem but if you backup remotely you have to
+use the same version of rdiff-backup in the client and server.
+
+For more info check the migration docs:
+https://github.com/rdiff-backup/rdiff-backup/blob/master/docs/migration.md
