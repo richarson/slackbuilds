@@ -74,11 +74,6 @@ find -L . \
 
 CFLAGS="$SLKCFLAGS" python setup.py install --root=$PKG
 
-# Python 3 support.
-if $(python3 -c 'import sys' 2>/dev/null); then
-    CFLAGS="$SLKCFLAGS" python3 setup.py install --root=$PKG
-fi
-
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a ChangeLog LICENSE README TODO \
   $PKG/usr/doc/$PRGNAM-$VERSION
