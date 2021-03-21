@@ -24,7 +24,7 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM="grc"
-VERSION=${VERSION:-1.11.3}
+VERSION=${VERSION:-1.12}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
@@ -75,7 +75,7 @@ find -L . \
 mv $PKG/etc/grc.conf $PKG/etc/grc.conf.new
 
 # for Bash, Fish and Zsh.
-mv $PKG/etc/profile.d/grc.bashrc $PKG/etc/profile.d/grc.bashrc.new
+mv $PKG/etc/profile.d/grc.sh $PKG/etc/profile.d/grc.sh.new
 install -m644 grc.zsh $PKG/etc/profile.d/grc.zsh.new
 install -m644 grc.fish $PKG/etc/profile.d/grc.fish.new
 
