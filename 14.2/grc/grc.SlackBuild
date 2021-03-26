@@ -76,9 +76,8 @@ mv $PKG/etc/grc.conf $PKG/etc/grc.conf.new
 
 # for Bash, Fish and Zsh.
 mv $PKG/etc/profile.d/grc.sh $PKG/etc/profile.d/grc.sh.new
-install -m644 grc.zsh $PKG/etc/profile.d/grc.zsh.new
 install -m644 grc.fish $PKG/etc/profile.d/grc.fish.new
-
+install -m644 grc.zsh $PKG/etc/profile.d/grc.zsh.new
 install -Dm644 _grc $PKG/usr/share/zsh/site-functions/_grc
 
 mv $PKG/usr/share/man $PKG/usr/man
