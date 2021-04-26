@@ -1,1 +1,0 @@
-BUILD_OPTS="--enable-cdda --enable-openal --disable-wayland --jobs=4"
