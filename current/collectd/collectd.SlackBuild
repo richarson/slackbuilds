@@ -70,13 +70,16 @@ CXXFLAGS="$SLKCFLAGS" \
   --mandir=/usr/man \
   --docdir=/usr/doc/$PRGNAM-$VERSION \
   --with-perl-bindings="PREFIX=/usr INSTALLDIRS=vendor INSTALLVENDORMAN3DIR=/usr/man/man3" \
-  --enable-static=no \
+  --disable-dependency-tracking \
+  --disable-static \
   --without-java \
   --disable-werror \
   --build=$ARCH-slackware-linux
 
 make
 make install DESTDIR=$PKG
+
+find $PKG -type f -name "*.la" -print0 | xargs -0 --no-run-if-empty rm
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" \
   | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
