@@ -7,7 +7,7 @@
 # Copyright (c) 2017-2021, Modified by: Ricardo J. Barberis <ricardo.barberis@gmail.com>
 
 PRGNAM=git-cola
-VERSION=${VERSION:-3.10.1}
+VERSION=${VERSION:-3.12.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
@@ -63,17 +63,17 @@ export GIT_COLA_NO_PRIVATE_LIBS=1
 python3 setup.py install --root=$PKG
 
 make DESTDIR=$PKG prefix=/usr install
-make DESTDIR=$PKG prefix=/usr install-doc
-make DESTDIR=$PKG prefix=/usr install-html
+#make DESTDIR=$PKG prefix=/usr install-doc
+#make DESTDIR=$PKG prefix=/usr install-html
 
 sed -i -e 's,/usr/bin/python.*,/usr/bin/python3,' $PKG/usr/bin/git-*
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
-mv $PKG/usr/share/man $PKG/usr/
-find $PKG/usr/man -type f -exec gzip -9 {} \;
-for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
+#mv $PKG/usr/share/man $PKG/usr/
+#find $PKG/usr/man -type f -exec gzip -9 {} \;
+#for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
 cp -a COPYING COPYRIGHT README.md $PKG/usr/doc/$PRGNAM-$VERSION
