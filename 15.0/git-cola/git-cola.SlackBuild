@@ -4,7 +4,7 @@
 
 # Written by Andrew Rowland <darowland@ieee.org>
 
-# Copyright (c) 2017-2021, Modified by: Ricardo J. Barberis <ricardo.barberis@gmail.com>
+# Copyright (c) 2017-2022, Modified by: Ricardo J. Barberis <ricardo.barberis@gmail.com>
 
 PRGNAM=git-cola
 VERSION=${VERSION:-3.12.0}
