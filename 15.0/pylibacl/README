@@ -1,0 +1,5 @@
+pylibacl (python wrapper for POSIX ACLs)
+
+This is a C extension module for Python which implements POSIX ACLs
+manipulation. It is a wrapper on top of the systems’s acl C library.
+See acl(5).

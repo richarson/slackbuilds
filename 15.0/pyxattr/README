@@ -1,0 +1,5 @@
+pyxattr (python wrapper for attr)
+
+This is a C extension module for Python which implements extended
+attributes manipulation. It is a wrapper on top of the attr C library.
+See attr(5).

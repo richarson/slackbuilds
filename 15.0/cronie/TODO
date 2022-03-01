@@ -1,0 +1,10 @@
+
+- Ver script de arranque? Inspirarse en:
+ + anacron
+ + fcron
+ + incron
+
+- /etc/crontab en lugar de /var/spool/cron/root?
+
+- /etc/anacrontab para laptops
+

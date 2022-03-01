@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+            |-----handy-ruler------------------------------------------------------|
+rdiff-backup: rdiff-backup (backup tool)
+rdiff-backup:
+rdiff-backup: rdiff-backup is a simple backup tool which can be used locally and
+rdiff-backup: remotely, on Linux and Windows, and even cross-platform between both.
+rdiff-backup:
+rdiff-backup: Because rdiff-backup only stores the differences from the previous
+rdiff-backup: backup to the next one (a so called reverse incremental backup), the
+rdiff-backup: latest backup is always a full backup, making it easiest and fastest
+rdiff-backup: to restore the most recent backups, combining the space advantages of
+rdiff-backup: incremental backups while keeping the speed advantages of full
+rdiff-backup: backups (at least for recent ones).
